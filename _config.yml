@@ -1,3 +1,4 @@
 remote_theme: pages-themes/minimal@v0.2.0
 title: Roam
-description: To empower travelers by providing on-demand, immersive learning through image detection and retrieval-augmented generation, fostering global awareness, empathy, and cultural understanding.
+logo: /assets/img/roam_logo.png
+description: An AI tour guide assistant that empowers users to learn about the world around them!
