@@ -51,8 +51,40 @@ The UNESCO dataset includes over 1,000 landmarks across 168 countries and is hig
 The retrieved content from UNESCO and/or Wikipedia is then passed, along with the prompt, into the Mistral model’s context window. This generates engaging, tour guide-style responses tailored to the identified landmark.
 # User Testimonials
 # Meet the Team
-![Branching](/assets/img/SamHeadshot.png)
 
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/SamHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em; font-weight: bold;">Samuel Greenberg</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">New York, NY</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/YoniHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Yoni Nackash</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">New York, NY</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/NicholasHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Nicholas Lin</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Boston, MA</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/AliceHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Alice Lu</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Los Angeles, CA</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/HadiHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Hadi Hafezi</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Irvine, CA</p>
+  </div>
+
+</div>
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
