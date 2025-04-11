@@ -14,21 +14,22 @@ With image detection, users will first be able to confidently identify what surr
 # Product + Features
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
-<div style="flex: 1;">
-<ul>
-  <li>Interactive and mobile-friendly website</li>
-  <li>Geolocating</li>
-  <li>Landmark Identification</li>
-  <li>Landmark Identification Confidence</li>
-  <li>Interesting information about the identified landmark</li>
-</ul>
+  <div style="flex: 1;">
+    <ul style="font-size: 1.25rem;">
+      <li>Interactive and mobile-friendly website</li>
+      <li>Geolocating</li>
+      <li>Landmark Identification</li>
+      <li>Landmark Identification Confidence</li>
+      <li>Interesting information about the identified landmark</li>
+    </ul>
+  </div>
+
+  <div style="flex: 1;">
+    <img src="assets/img/product.png" alt="Landmark Example" style="max-width: 100%; height: auto; border-radius: 8px;">
+  </div>
+
 </div>
 
-<div style="flex: 1;">
-  <img src="assets/img/product.png" alt="Landmark Example" style="max-width: 100%; height: auto; border-radius: 8px;">
-</div>
-
-</div>
 # Demo
 
 
