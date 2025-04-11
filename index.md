@@ -12,10 +12,10 @@ When traveling to or exploring a new destination, it is often difficult to learn
 With image detection, users will first be able to confidently identify what surrounds them. Incorporating retrieval augmented generation then provides succinct summaries about historical significance and other relevant information for the user to learn from. This knowledge will help build stronger relationships across disparate communities and promote inclusivity.
 
 # Product + Features
-<div style="display: flex; align-items: center; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <ul style="font-size: 1.1rem; text-align: center; list-style-position: inside;">
+  <div style="flex: 1;">
+    <ul style="font-size: 1.1rem;">
       <li>Interactive and mobile-friendly website</li>
       <li>Geolocating</li>
       <li>Landmark Identification</li>
