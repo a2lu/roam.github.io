@@ -25,7 +25,7 @@ With image detection, users will first be able to confidently identify what surr
 </div>
 
 <div style="flex: 1;">
-  <img src="/assets/img/product.png" alt="Landmark Example" style="max-width: 100%; height: auto; border-radius: 8px;">
+  <img src="assets/img/product.png" alt="Landmark Example" style="max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 </div>
