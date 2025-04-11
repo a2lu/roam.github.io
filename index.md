@@ -4,6 +4,7 @@ layout: default
 ROAM is an AI tour guide assistant that empowers users to learn about the world around them. The platform enables users to upload an image of a landmark, and receive instant information about its history and significance. From active travelers to passive wanderers, our mission is to empower individuals to learn in a simple and intuitive way that will help foster understanding, empathy, and global awareness!
 
 # Mission Statement
+![Branching](/assets/img/mission.png)
 
 Our world is becoming increasingly interconnected as technology continues to develop and improve. It is our collective job to continue teaching and learning about those with different backgrounds.
 
@@ -32,7 +33,7 @@ With image detection, users will first be able to confidently identify what surr
 
 # Demo
 <video controls style="max-width: 100%; border-radius: 12px;">
-  <source src="assets/video/demo.mp4" type="video/mp4">
+  <source src="assets/video/roam-demp-video.MP4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -90,7 +91,7 @@ The retrieved content from UNESCO and/or Wikipedia is then passed, along with th
   <div style="text-align: center; max-width: 140px;">
     <img src="assets/img/AliceHeadshot.png" width="120" style="border-radius: 50%;">
     <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Alice Lu</p>
-    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Los Angeles, CA</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Orlando, FL</p>
   </div>
 
   <div style="text-align: center; max-width: 140px;">
