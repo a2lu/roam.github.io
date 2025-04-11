@@ -15,7 +15,7 @@ With image detection, users will first be able to confidently identify what surr
 <div style="display: flex; align-items: flex-start; gap: 20px;">
 
   <div style="flex: 1;">
-    <ul style="font-size: 1.25rem;">
+    <ul style="font-size: 1.1rem;">
       <li>Interactive and mobile-friendly website</li>
       <li>Geolocating</li>
       <li>Landmark Identification</li>
