@@ -29,10 +29,11 @@ ROAM’s architecture is fully deployed on AWS EC2 and Sagemaker Endpoints. The 
 
 
 # About the Data
-For landmark detection, we are using the Google Landmarks v2 dataset. It was filtered down from ~4.2 million to ~1.6 million images by researchers at Google. With over 81 thousand landmarks, this made the data much more suitable for training a high precision landmark identification model. Still, instances where the main object in the image was not aligned with the image’s label remained in the dataset.
+![Branching](/assets/img/landmarks.png)
+
+For landmark detection, we are using the Google Landmarks v2 dataset. It was filtered down from ~4.2 million to ~1.6 million images by researchers at Google. With over 81 thousand landmarks, this made the data much more suitable for training a high precision landmark identification model. Still, several instances remained where the main object in the image was not aligned with the image’s label.
 
 To programmatically filter out these noisy images, a visual question answering model called BLIP is used. For every image in each class (landmark), BLIP identifies the main object in the image. The frequency of each unique BLIP label for each class is counted and only the images within a class with the most frequent BLIP label are kept.
-
 
 # ML Architecture
 ![Branching](/assets/img/ml_architecture.png)
@@ -46,5 +47,38 @@ The UNESCO dataset includes over 1,000 landmarks across 168 countries and is hig
 
 The retrieved content from UNESCO and/or Wikipedia is then passed, along with the prompt, into the Mistral model’s context window. This generates engaging, tour guide-style responses tailored to the identified landmark.
 # User Testimonials
+# Meet the Team
 
-# Team
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/SamHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em; font-weight: bold;">Samuel Greenberg</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">New York, NY</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/YoniHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Yoni Nackash</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">New York, NY</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/NicholasHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Nicholas Lin</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Boston, MA</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/AliceHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Alice Lu</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Los Angeles, CA</p>
+  </div>
+
+  <div style="text-align: center; max-width: 140px;">
+    <img src="assets/img/HadiHeadshot.png" width="120" style="border-radius: 50%;">
+    <p style="margin: 10px 0 0; font-size: 0.95em;font-weight: bold;">Hadi Hafezi</p>
+    <p style="margin: 2px 0; font-size: 0.85em; color: gray;">Irvine, CA</p>
+  </div>
+
+</div>
