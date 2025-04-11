@@ -32,7 +32,11 @@ ROAM’s architecture is fully deployed on AWS EC2 and Sagemaker Endpoints. The 
 
 
 # About the Data
+![Branching](/assets/img/landmarks.png)
 
+For landmark detection, we are using the Google Landmarks v2 dataset. It was filtered down from ~4.2 million to ~1.6 million images by researchers at Google. With over 81 thousand landmarks, this made the data much more suitable for training a high precision landmark identification model. Still, several instances remained where the main object in the image was not aligned with the image’s label.
+
+To programmatically filter out these noisy images, a visual question answering model called BLIP is used. For every image in each class (landmark), BLIP identifies the main object in the image. The frequency of each unique BLIP label for each class is counted and only the images within a class with the most frequent BLIP label are kept.
 
 # ML Architecture
 ![Branching](/assets/img/ml_architecture.png)
