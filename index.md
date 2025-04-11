@@ -50,7 +50,8 @@ The UNESCO dataset includes over 1,000 landmarks across 168 countries and is hig
 
 The retrieved content from UNESCO and/or Wikipedia is then passed, along with the prompt, into the Mistral model’s context window. This generates engaging, tour guide-style responses tailored to the identified landmark.
 # User Testimonials
-# Team
+# Meet the Team
+![Branching](/assets/img/SamHeadshot.png)
 
 
 
