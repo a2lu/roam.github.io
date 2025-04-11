@@ -12,6 +12,7 @@ When traveling to or exploring a new destination, it is often difficult to learn
 
 With image detection, users will first be able to confidently identify what surrounds them. Incorporating retrieval augmented generation then provides succinct summaries about historical significance and other relevant information for the user to learn from. This knowledge will help build stronger relationships across disparate communities and promote inclusivity.
 
+<br>
 
 # Product + Features
 <div style="display: flex; align-items: flex-start; gap: 20px;">
@@ -32,6 +33,7 @@ With image detection, users will first be able to confidently identify what surr
 
 </div>
 
+<br>
 
 # Demo
 <video controls style="max-width: 100%; border-radius: 12px;">
@@ -39,12 +41,14 @@ With image detection, users will first be able to confidently identify what surr
   Your browser does not support the video tag.
 </video>
 
+<br>
 
 # High Level System Architecture
 ![Branching](/assets/img/system_architecture.png)
 
 ROAM’s architecture is fully deployed on AWS EC2 and Sagemaker Endpoints. The front end application is hosted on a secure domain (roam-pic.com), which is ran on an EC2 instance. Using a secure domain allows for users to access Streamlit safely on their phone via web-access and allows access to camera and location information. When users take a photo of a landmark, the photo is sent to our AWS Sagemaker endpoints, which include two computer vision models for landmark detection and a RAG model for historical retrieval. This is then shown back to the user on Streamlit. 
 
+<br>
 
 # About the Data
 ![Branching](/assets/img/landmarks.png)
@@ -55,6 +59,7 @@ To programmatically filter out these noisy images, a visual question answering m
 
 For the RAG pipeline, we used primarily two data sources: UNESCO and Wikipedia. The UNESCO dataset includes over 1,000 landmarks across 168 countries and is highly regulated, with strict submission guidelines ensuring data quality. To enrich this, we dynamically append the top two Wikipedia entries for the identified landmark using LangChain’s Wikipedia API. These entries are only added on demand—when a user queries the app—to keep the RAG database lightweight and retrieval times fast.
 
+<br>
 
 # ML Architecture
 ![Branching](/assets/img/ml_architecture.png)
@@ -63,6 +68,7 @@ Let’s take a quick look at the Machine Learning Architecture. The process star
 
 For our secondary classification model, we are using CLIP from OpenAI in combination with AWS location services. CLIP is a neural net model that is trained on image and text pairs. The advantage of this model is that it can be used for zero-shot prediction where it is predicting classes it wasn’t directly trained on. By using the user’s location to narrow down landmarks CLIP could help us generalize to lesser known landmarks not seen by the first vision transformer. If the probability is above the threshold, the class label is displayed back to the user, and that label is used as the input to the RAG system to generate the landmark information to the user.
 
+<br>
 
 # RAG Pipeline
 ![Branching](/assets/img/RAG_Pipeline.png)
@@ -71,9 +77,11 @@ Once the vision model identifies the landmark from the user-provided image, the 
 
 The retrieved content from UNESCO and/or Wikipedia is then passed, along with the prompt, into the Mistral model’s context window. This generates engaging, tour guide-style responses tailored to the identified landmark.
 
+<br>
 
 # User Testimonials
 
+<br>
 
 # Meet the Team
 
