@@ -79,10 +79,6 @@ The retrieved content from UNESCO and/or Wikipedia is then passed, along with th
 
 <br>
 
-# User Testimonials
-
-<br>
-
 # Meet the Team
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin-top: 30px;">
